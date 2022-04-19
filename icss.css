@@ -1,0 +1,102 @@
+*{	
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+	background-color: #F8FAFA;
+	
+
+
+
+}
+
+#timer{
+	margin: 10px 0;
+	font-size: 1.5vw;
+}
+
+#more{
+	text-decoration: none;
+	font-weight: 700;
+}
+.content{
+	max-width: 70%;
+	margin:5% 30%;
+}
+.data{
+	align-content: center;
+}
+
+li{margin: 5px;}
+
+#signup{	
+	margin: 10% auto 10% auto;
+	text-align: center;
+	height: 50px;
+	width: 200px; 
+	text-align: center;
+	display: block;
+	font-size: 120%;
+	font-weight: 700;
+	line-height: 50px;
+	text-decoration: none;
+
+	}
+
+         .btn-grad {background-image: linear-gradient(to right, #0A66C2 0%, #12D8FA  51%, #1FA2FF  100%)}
+         .btn-grad {
+            
+            text-align: center;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: white;            
+            box-shadow: 0 0 20px #eee;
+            border-radius: 10px;
+            display: block;
+          }
+
+          .btn-grad:hover {
+            background-position: right center; /* change the direction of the change here */
+            color: #fff;
+            text-decoration: none;
+          }
+         
+
+
+h1{	
+	font-size: 6vw;
+	font-weight: 900;
+}
+h3{	
+	
+	font-size: 2.5vw;
+	font-weight: 700;
+}
+
+
+@media screen and (max-width: 600px) {
+	#timer{
+	margin: 30px 0;
+	font-size: 1.5em;
+}
+  
+ h1{	
+	font-size: 3.5em;
+	font-weight: 900;
+}
+h3{	
+	
+	font-size: 1.5em;
+	font-weight: 700;
+}
+  .content{
+
+  	max-width: 90%;
+  	margin: 20% 5%;
+  }
+  #signup{
+  	width: 70%;
+  	font-size: 120%;
+  }
+
+}
